@@ -88,12 +88,14 @@ img {
   width: 100%;
 }
 /* main========== */
-.main {
+.main,
+footer {
   max-width: 1440px;
   margin: 0 auto;
 }
 /** ========== team section */
-section {
+section,
+footer {
   margin: 17rem auto;
 }
 .team {
@@ -220,6 +222,12 @@ section {
   justify-content: space-between;
   margin-top: 5rem;
 }
+footer {
+  border-radius: 8px;
+  background: #fff4e7;
+  padding: 4rem 0;
+  text-align: center;
+}
 /* ================================================= ==============================================*/
 /* ! responsive media Quary */
 /* ! tablet device */
@@ -275,6 +283,12 @@ section {
     flex-direction: column;
     gap: 1rem;
   }
+  .sponspors-img {
+    flex-direction: column;
+  }
+  .sponspors-img img {
+    margin-bottom: 2rem;
+  }
 }
 
 /* ! mobile device */
@@ -327,5 +341,11 @@ section {
   .card-container {
     flex-direction: column;
     gap: 1rem;
+  }
+  .sponspors-img {
+    flex-direction: column;
+  }
+  .sponspors-img img {
+    margin-bottom: 2rem;
   }
 }
