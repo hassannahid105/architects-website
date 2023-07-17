@@ -26,10 +26,7 @@ img {
   font-size: 4.5rem;
   font-weight: 700;
 }
-/* ! MY css code end delet */
-.margin {
-  margin-bottom: 200px;
-}
+
 /* header style */
 .header {
   background: rgba(255, 144, 14, 0.1);
@@ -179,9 +176,9 @@ footer {
   margin-top: 2rem;
 }
 .card-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6rem;
   margin-top: 2rem;
 }
 
@@ -280,7 +277,7 @@ footer {
     margin-top: 1rem;
   }
   .card-container {
-    flex-direction: column;
+    grid-template-columns: 1fr;
     gap: 1rem;
   }
   .sponspors-img {
@@ -339,7 +336,7 @@ footer {
     margin-top: 1rem;
   }
   .card-container {
-    flex-direction: column;
+    grid-template-columns: 1fr;
     gap: 1rem;
   }
   .sponspors-img {
