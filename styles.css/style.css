@@ -259,6 +259,7 @@ footer {
   }
   .team-pic {
     gap: 2rem;
+    order: 5;
   }
   .team {
     gap: 3rem;
@@ -317,6 +318,7 @@ footer {
   }
   .team-pic {
     gap: 1rem;
+    order: 5;
   }
   .team {
     gap: 3rem;
